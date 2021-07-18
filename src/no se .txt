@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+https://maps.googleapis.com/maps/api/geocode/xml?address=Av. Fuentes de Satélite No. 1 Fraccionamiento Col. Jardines de Bellavista, Tlalnepantla de Baz, Edo. De Mexico C.P. 54080&key=AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A
+
+
+
+
+
+
+AIzaSyAmX-kWiHUQ7W3sUDe3viG2xET1q45-QAQ
+
+
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=Av.%20Fuentes%20de%20Sat%C3%A9lite%20No.%201%20Fraccionamiento%20Col.%20Jardines%20de%20Bellavista,%20Tlalnepantla%20de%20Baz,%20Edo.%20De%20Mexico%20C.P.%2054080&key=AIzaSyAmX-kWiHUQ7W3sUDe3viG2xET1q45-QAQ
+
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Avenida Fuentes de Satélite",
+               "short_name" : "Av Fuentes de Satélite",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Ciudad Satélite",
+               "short_name" : "Cd. Satélite",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Naucalpan de Juárez",
+               "short_name" : "Naucalpan de Juárez",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Estado de México",
+               "short_name" : "Méx.",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Mexico",
+               "short_name" : "MX",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "54054",
+               "short_name" : "54054",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Av Fuentes de Satélite 1, Cd. Satélite, 54054 Naucalpan de Juárez, Méx., Mexico",
+         "geometry" : {
+            "location" : {
+               "lat" : 19.5194685,
+               "lng" : -99.24636009999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 19.5208174802915,
+                  "lng" : -99.24501111970848
+               },
+               "southwest" : {
+                  "lat" : 19.5181195197085,
+                  "lng" : -99.2477090802915
+               }
+            }
+         },
+         "place_id" : "ChIJZyX4hjID0oURBU6PBZ5vp0w",
+         "plus_code" : {
+            "compound_code" : "GQ93+QF Naucalpan de Juárez, State of Mexico, Mexico",
+            "global_code" : "76F2GQ93+QF"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

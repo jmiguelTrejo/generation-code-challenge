@@ -3,3 +3,131 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.your-component{
+  border: 'red';
+  border-width: 2px;
+  border-style: 'solid';
+  padding-top: 0px;
+  position: relative;
+}
+.map-wrapper{
+  position: relative;
+  height: 80vh;
+  border: 5px solid gray;
+ 
+}
+
+/* star icon*/
+.fav-icon{
+  background-color: #fff;
+  border-radius: 30px;
+  color: gold;
+  font-size: 1.5em;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  padding-left: 6px;
+  padding-top: 6px;
+  right: 10px;
+  top: 60px;
+}
+
+
+.fav-list{
+  background-color: #fff;
+  border-left: 5px solid gray;
+  height: 80vh;
+  overflow-y:auto;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+  width: 30%;
+}
+
+.fav-list svg{
+  background-color: white;
+  color: red;  
+  font-size: 2.5em;
+  margin-right: 10px;
+}
+
+
+.fav-list .btn-close{
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+  height: 1.5em;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 2em;
+  border-radius: 2em;
+  width: 1.5em;
+}
+
+.fav-list .btn-close:hover{
+  background-color: red;
+  border: 2px solid white;
+  color: white;  
+}
+
+.fav-list h1{
+  text-align: center;
+}
+
+.fav-list .item{
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.fav-list .item svg{
+  color: red;
+  font-size: 1.5em;
+}
+
+.fav-list .item svg:hover{
+  color: white;
+  background-color: red;
+  padding: 3px;
+}
+
+.fav-list .item p{
+  float: left;
+  font-size: 1.3em;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  white-space: nowrap;
+  width: 85%;
+}
+
+@media (max-width: 1200px){
+  .fav-list{
+    width: 35%;
+  }
+}
+
+@media (max-width: 992px){
+  .fav-list{
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 768px){
+  .fav-list{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 576px){
+  .fav-list .item p{
+    width: 75%;
+  }
+}
+

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { YourComponent } from './YourComponent';
 
-import YourComponent from "./YourComponent";
 
 class App extends Component {
   render() {
@@ -35,7 +35,7 @@ class App extends Component {
           <li>Feel free to use our Google Maps API key: <b>AIzaSyCVH8e45o3d-5qmykzdhGKd1-3xYua5D2A</b></li>
           <li>The list of stores is located in the file <b>store_directory.json</b> </li>
           <li><b>Focus on the user, not the technology.</b> A simple implementation that impresses the user is better than a super technical solution that impresses other developers.</li>
-          <li>That said, code that is easy to follow is always appreciated :)</li>
+          <li>That said, code that is easy to follow is always appreciated ():</li>
         </ul>
 
         <YourComponent />

@@ -105,10 +105,29 @@ body {
   width: 85%;
 }
 
+.toaster{
+  position: absolute;
+  background-color: red;
+  color: white;
+  top: 20px;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hidden{
+  display: none;
+}
+
 @media (max-width: 1200px){
   .fav-list{
     width: 35%;
   }
+  .toaster{
+    left: 15%;
+    width: 70%;
+    }
 }
 
 @media (max-width: 992px){
@@ -122,7 +141,10 @@ body {
   .fav-list{
     width: 100%;
   }
-
+  .toaster{
+    width: 100%;
+    left: 0px;
+  }
 }
 
 @media (max-width: 576px){

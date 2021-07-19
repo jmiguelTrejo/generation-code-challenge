@@ -5,13 +5,14 @@ import { FavItem } from './FavItem'
 export const FavList = ({
     favorites,
     removeFavorite,
-    toggleListFavorite
+    toggleListFavorite,
+    css
 }) => {
 
     console.log( favorites );
 
     return (
-        <div className="fav-list animate__animated  animate__backInRight ">
+        <div className={css}>
             <button 
                 onClick={toggleListFavorite}
                 className="btn-close"

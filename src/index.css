@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
+  max-width: 100%;
 }
 
 .your-component{
@@ -17,7 +18,8 @@ body {
   position: relative;
   height: 80vh;
   border: 5px solid gray;
- 
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* star icon*/
